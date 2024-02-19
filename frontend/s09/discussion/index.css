@@ -1,0 +1,89 @@
+/* CSS RESET */
+* {
+	margin:  0;
+	padding:  0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+	/* Shortcut for apply padding to all sides */
+	padding: 0.8rem;
+	margin-bottom: 2rem;
+	border-bottom: 1px solid gray;
+	list-style-stype: none;
+}
+
+/* Margin vs Padding */
+/* Margin is best used when creating space between elements */
+/* Padding is best used when creating space between an element's border and its content */
+
+nav .nav nav .nav-logo {
+	margin: 0.5rem;
+	display: inline;
+}
+
+/* Intro section */
+
+#intro {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+	/* Shortcut:  */
+	/* padding:  2rem 10% 3rem */
+	text-align: center;
+}
+
+.header {
+	text-align: center;
+}
+
+#intro h2, #intro p {
+	/* Creates space between the contents of the intro section */
+	margin-bottom: 1rem;
+}
+
+#intro button {
+	color: white;
+	/* Changes the thickens of text */
+	font-weight: bold;
+	background-color: #c2195b;
+	border-radius: 25px;
+	font-size: 1rem;
+	/* Creates space between the button text and the border */
+	padding: 1rem;
+}
+
+#succeed-info {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+}
+
+#succeed-info h2{
+	margin-bottom: 1rem;
+}
+
+#succeed-info h3 {
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+#succeed-info .card {
+	/* Allows the cards to appear beside each other */
+	display: inline-block;
+	/* Aligns elements with the tallest element in line */
+	vertical-align: top;
+	/* Allows for cards to have equal height that adjust with the content */
+	min-height: 175px;
+	/* Measurement is based on equally dividing the parent container's width */
+	/* Only use 30% and not 33.33% */
+	width: 30%;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+}
