@@ -80,7 +80,7 @@ p {
 }
 
 /* Change color of navbar font when clicked and overrides bootstrap default color */
-.nav-link:focus, .nav-link:hover {
+.nav-link:hover {
 	background-color: black;
   color: white !important;
 }
